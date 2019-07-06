@@ -10,6 +10,16 @@
 
 
 
+```
+foreach ($product as $p) {
+echo $p->sku;
+}
+```
+
+
+
+
+
 
 
 
