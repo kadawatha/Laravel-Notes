@@ -6,7 +6,7 @@
 
 
 
-
+laravel foreach loop in controller
 
 
 
