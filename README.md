@@ -17,13 +17,16 @@ echo $p->sku;
 ```
 
 
+How do we set a custom port for test server? (microservice)
+
+ php artisan serve --port=8080
+
+<hr>
+
+php artisan serve --port=8001
 
 
-
-
-
-
-
+<hr>
 
 
 
