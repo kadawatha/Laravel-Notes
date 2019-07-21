@@ -29,6 +29,14 @@ php artisan serve --port=8001
 <hr>
 
 
+    php artisan make:model Sample -mcr
+
+
+<hr>
+
+
+    php artisan make:model Category -m
+
 
 
 
