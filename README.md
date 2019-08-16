@@ -1,7 +1,10 @@
 # Laravel-Notes
 
+<h5> Laravel Old Version Download </h5>
 
+# composer create-project laravel/laravel your-project-name 5.0
 
+<hr>
     return view('profile',array('user'=>Auth::user()))->with('years',Group::all())->with('occupations',Occupation::all());
 
 
