@@ -21,7 +21,6 @@ echo $p->sku;
 <p>Laravel Auth in Controller </p>
 
 `  public function allOrders(){
-
         $user = Auth::user();
         
         $id = Auth::id();
