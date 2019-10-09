@@ -21,10 +21,15 @@ echo $p->sku;
 <p>Laravel Auth in Controller </p>
 
 `  public function allOrders(){
+
         $user = Auth::user();
+        
         $id = Auth::id();
+        
         $Orders=DB::select("SELECT * FROM orders WHERE users_id = '$id'");
+        
         return view('checkout.review_order_2',compact('Orders','user'));
+        
     }`
 How do we set a custom port for test server? (microservice)
 
