@@ -22,11 +22,8 @@ echo $p->sku;
 
 `  public function allOrders(){
         $user = Auth::user();
-        
         $id = Auth::id();
-        
         $Orders=DB::select("SELECT * FROM orders WHERE users_id = '$id'");
-        
         return view('checkout.review_order_2',compact('Orders','user'));
         
     }`
