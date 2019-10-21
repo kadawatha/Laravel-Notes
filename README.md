@@ -20,7 +20,8 @@ echo $p->sku;
 ```
 <p>Laravel Auth in Controller </p>
 
-`  public function allOrders(){
+` 
+public function allOrders(){
         $user = Auth::user();
         $id = Auth::id();
         $Orders=DB::select("SELECT * FROM orders WHERE users_id = '$id'");
