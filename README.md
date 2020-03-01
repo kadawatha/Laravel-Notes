@@ -59,6 +59,10 @@ php artisan serve --port=8001
 <hr>
 
 
+<p> authentication genarate </p>
+
+
+
 ```
 
 composer require laravel/ui "^1.0" --dev
