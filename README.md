@@ -56,6 +56,21 @@ php artisan serve --port=8001
 
 
 
+<hr>
+
+
+```
+
+composer require laravel/ui "^1.0" --dev
+
+php artisan ui vue --auth
+
+
+```
+
+
+
+
 
 
 
