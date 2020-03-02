@@ -85,7 +85,7 @@ php artisan ui vue --auth
                         <li class="{{(request()->segment(1) == 'contact-page') ? 'active' : '' }}"><a href="{{url('contact-page')}}"><span>Contact</span></a></li>
                     </ul>
                 </div>
-            </div>
+    </div>
             
 
 ```
