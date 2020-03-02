@@ -72,9 +72,23 @@ php artisan ui vue --auth
 
 ```
 
+<h3> Laravel Active Manu  </h3>
 
+```
 
+     <div class="menu">
+                <div id="cssmenu">
+                    <ul>
+                        <li class="{{(request()->segment(1) == '') ? 'active' : '' }}"><a href="{{url('/')}}"><span>Home</span></a></li>
+                        <li class="{{(request()->segment(1) == 'about') ? 'active' : '' }}"><a href="{{url('about')}}"><span>About</span></a></li>
+                        <li class="{{(request()->segment(1) == 'gallery') ? 'active' : '' }}"><a href="{{url('gallery')}}"><span>Gallery</span></a></li>
+                        <li class="{{(request()->segment(1) == 'contact-page') ? 'active' : '' }}"><a href="{{url('contact-page')}}"><span>Contact</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            
 
+```
 
 
 
