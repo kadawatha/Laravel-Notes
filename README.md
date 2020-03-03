@@ -90,6 +90,13 @@ php artisan ui vue --auth
 
 ```
 
+<p> variable inside asset </p>
+
+```
+{{ asset('img/backgrounds/' . $background . '.jpg') }}
+
+```
+
 
 
 
