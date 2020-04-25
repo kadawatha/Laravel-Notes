@@ -59,7 +59,7 @@ php artisan serve --port=8001
 <hr>
 
 
-<p> authentication genarate </p>
+<p> authentication genarate Laravel 6 </p>
 
 
 
