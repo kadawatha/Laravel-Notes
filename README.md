@@ -67,7 +67,7 @@ php artisan serve --port=8001
 
 composer require laravel/ui "^1.0" --dev
 
-php artisan ui vue --auth
+php artisan ui react --auth
 
 
 ```
