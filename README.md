@@ -97,7 +97,33 @@ php artisan ui react --auth
 
 ```
 
-##deploy to digital ocean
+
+<hr>
+
+### uninstall nginx
+
+
+```
+
+sudo apt-get remove nginx nginx-common
+
+```
+
+```
+
+sudo apt-get purge nginx nginx-common
+
+```
+
+```
+
+sudo apt-get autoremove
+
+```
+
+
+
+## deploy to digital ocean
 
 ---
 title: Setting Up Laravel in Ubuntu / DigitalOcean
