@@ -97,6 +97,31 @@ php artisan ui react --auth
 
 ```
 
+<hr>
+
+
+### uninstall apche
+
+```
+
+sudo apt autoremove
+
+```
+
+
+```
+
+sudo apt remove apache2.*
+
+```
+
+
+```
+
+dpkg -S `which apache2`
+
+```
+
 
 <hr>
 
