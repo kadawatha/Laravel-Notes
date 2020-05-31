@@ -134,6 +134,13 @@ sudo apt-get autoremove
 
 ```
 
+## get permistion
+
+```
+
+chmod -R 777 storage
+
+```
 
 
 ## deploy to digital ocean
