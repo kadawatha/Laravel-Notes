@@ -99,6 +99,38 @@ php artisan ui react --auth
 
 <hr>
 
+### PasswordAuthentication with a value of Yes. 
+
+```
+$ sudo vim /etc/ssh/sshd_config
+
+```
+
+```
+
+PasswordAuthentication no
+press i for insert mode
+
+
+```
+
+```
+
+[escape] :wq
+
+```
+
+```
+
+$ sudo systemctl restart ssh
+Some systems make require
+$ sudo systemctl restart sshd
+
+```
+
+
+
+<hr>
 
 ### uninstall apche
 
