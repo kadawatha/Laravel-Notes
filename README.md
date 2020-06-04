@@ -92,14 +92,13 @@ hash -d npm
 ```
 
 
-sudo add-apt-repository ppa:certbot/certbot
+sudo certbot --nginx
 
-sudo apt-get update
 
-sudo apt-get install certbot
+Select the appropriate numbers separated by commas and/or spaces, or leave input
+blank to select all options shown (Enter 'c' to cancel): 2
 
-sudo certbot certonly --standalone --preferred-challenges http -d geekcrz.crazzyartist.com
-
+Select the appropriate number [1-2] then [enter] (press 'c' to cancel): 1
 
 
 ```
