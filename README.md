@@ -59,6 +59,52 @@ php artisan serve --port=8001
 <hr>
 
 
+### nodejs install
+
+
+
+```
+
+node install
+
+sudo apt update
+
+sudo apt install nodejs
+
+sudo apt install npm
+
+nodejs -v
+
+npm -v
+
+sudo npm install -g npm 
+
+npm -v
+
+hash -d npm
+
+
+
+```
+
+### ssl install
+
+```
+
+
+sudo add-apt-repository ppa:certbot/certbot
+
+sudo apt-get update
+
+sudo apt-get install certbot
+
+sudo certbot certonly --standalone --preferred-challenges http -d geekcrz.crazzyartist.com
+
+
+
+```
+
+
 <p> authentication genarate Laravel 6 </p>
 
 
