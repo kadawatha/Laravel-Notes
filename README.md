@@ -390,6 +390,10 @@ DB_PASSWORD=STRONG_PASSWORD_HERE
 + `sudo chmod -R 755 /var/www/html/first-project` fix permissions
 + `chmod -R o+w /var/www/html/first-project/storage/` fix permission
 
+
+### sudo chmod -R 777 storage
+
+
 ## Modify Nginx
 
 + `sudo vim /etc/nginx/sites-available/YOUR.DOMAIN.COM`
