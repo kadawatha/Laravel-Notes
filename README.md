@@ -191,6 +191,7 @@ sudo apt-get remove apache2-common
 
 
 ```
+sudo apt-get install apache2
 
 sudo apt install php libapache2-mod-php
 
@@ -201,6 +202,19 @@ sudo apt install php7.0-mbstring
 
 
 
+### apche notes
+
+
+```
+sudo systemctl stop apache2.service
+
+sudo systemctl start apache2.service
+
+sudo systemctl restart apache2.service
+
+sudo systemctl reload apache2.service
+
+```
 
 
 
