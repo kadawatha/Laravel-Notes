@@ -187,6 +187,22 @@ sudo apt-get remove apache2-common
 
 ```
 
+### install apche
+
+
+```
+
+sudo apt install php libapache2-mod-php
+
+sudo apt install php7.0-mbstring
+
+
+```
+
+
+
+
+
 
 <hr>
 
