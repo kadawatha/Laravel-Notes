@@ -58,6 +58,19 @@ php artisan serve --port=8001
 
 <hr>
 
+## full permision to folder
+
+```
+
+sudo mkdir /var/szDirectoryName
+sudo chmod a+rwx /var/szDirectoryName
+
+
+```
+
+
+
+
 
 ### nodejs install
 
