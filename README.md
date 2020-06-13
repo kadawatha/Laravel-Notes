@@ -188,7 +188,26 @@ Some systems make require
 $ sudo systemctl restart sshd
 
 ```
+<hr>
 
+### for wordpress routing
+
+
+```
+
+
+location / {
+        # First attempt to serve request as file, then
+        # as directory, then fall back to displaying a 404.
+        try_files $uri $uri/ /index.php?q=$uri&$args; 
+        #try_files $uri $uri/ =404;
+        # Uncomment to enable naxsi on this location
+        # include /etc/nginx/naxsi.rules
+    }
+
+
+
+```
 
 
 <hr>
