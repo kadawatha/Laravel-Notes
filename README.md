@@ -68,7 +68,10 @@ sudo chmod a+rwx /var/szDirectoryName
 
 ```
 
+`show databases;`
+`CREATE DATABASE soap_store;`
 
+``
 
 
 
