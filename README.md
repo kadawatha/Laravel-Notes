@@ -84,7 +84,13 @@ sudo apt install brightness-controller
 
 ```
 
+### mac icon for ubuntu
 
+```
+
+http://ubuntuhandbook.org/index.php/2020/01/install-mac-os-mojave-theme-ubuntu-19-10/
+
+```
 
 
 
