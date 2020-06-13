@@ -72,6 +72,19 @@ sudo chmod a+rwx /var/szDirectoryName
 `CREATE DATABASE soap_store;`
 
 ``
+### Fix Brightness Using a Software
+
+
+```
+
+sudo add-apt-repository ppa:apandada1/brightness-controller
+sudo apt update
+sudo apt install brightness-controller
+
+
+```
+
+
 
 
 
