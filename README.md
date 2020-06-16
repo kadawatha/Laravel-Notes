@@ -228,6 +228,14 @@ location / {
 
 ```
 
+### for wordpress plugin
+
+```
+
+chown -Rf www-data.www-data /var/www/html/
+
+
+```
 
 <hr>
 
