@@ -122,6 +122,37 @@ hash -d npm
 
 ```
 
+### remove nodejs 
+
+
+```
+
+
+sudo apt-get purge nodejs
+
+sudo apt-get purge --auto-remove nodejs
+
+
+```
+
+### install nodejs latest version
+
+```
+
+
+curl -sL https://deb.nodesource.com/setup_10.x -o nodesource_setup.sh
+
+
+sudo bash nodesource_setup.sh
+
+
+sudo apt install nodejs
+
+
+```
+
+
+
 ### ssl install
 
 ```
