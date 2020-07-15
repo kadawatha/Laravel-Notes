@@ -58,7 +58,15 @@ php artisan serve --port=8001
 
 <hr>
 
+### laravel auth
 
+
+```
+
+composer require laravel/ui
+php artisan ui bootstrap --auth
+
+```
 
 ```
 
