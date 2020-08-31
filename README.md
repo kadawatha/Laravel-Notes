@@ -43,6 +43,20 @@ How do we set a custom port for test server? (microservice)
 php artisan serve --port=8001
 
 
+<h3>ErrorException file_put_contents failed to open stream: No such file or directory</h3>
+
+
+```
+
+The best way to solve this problem is, go to directory laravel/bootstrap/cache and delete config.php file. or you can rename it as well like config.php.old And your problem will be fix. Happy coding :-
+
+
+```
+
+
+
+
+
 <hr>
 
 
