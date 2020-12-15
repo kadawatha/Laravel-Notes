@@ -43,15 +43,13 @@ How do we set a custom port for test server? (microservice)
 php artisan serve --port=8001
 
 
-<h3>ErrorException file_put_contents failed to open stream: No such file or directory</h3>
-
-
 <p> Laravel PackageManifest.php: Undefined index: name </p>
 
 ```
 composer update
 ```
 
+<h3>ErrorException file_put_contents failed to open stream: No such file or directory</h3>
 
 
 ```
