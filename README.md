@@ -11,7 +11,12 @@
 
 laravel foreach loop in controller
 
+<p> image crope </p>
 
+```
+Plugin Ctrl+Alt+Shift+A
+Photoshop Ctrl + t
+```
 
 ```
 foreach ($product as $p) {
