@@ -9,6 +9,16 @@
 
 
 
+### for laravel 8
+
+```
+composer config platform-check false
+
+composer dumpautoload
+
+```
+
+
 laravel foreach loop in controller
 
 <p> image crope </p>
