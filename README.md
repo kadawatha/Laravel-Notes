@@ -89,7 +89,17 @@ The best way to solve this problem is, go to directory laravel/bootstrap/cache a
 
 ```
 
-composer require laravel/ui
+// Generate basic scaffolding...
+php artisan ui bootstrap
+php artisan ui vue
+php artisan ui react
+
+// Generate login / registration scaffolding...
+php artisan ui bootstrap --auth
+php artisan ui vue --auth
+php artisan ui react --auth
+
+composer require laravel/ui:^2.4
 php artisan ui bootstrap --auth
 
 ```
