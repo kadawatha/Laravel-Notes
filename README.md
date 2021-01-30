@@ -2,12 +2,29 @@
 
 <h5> Laravel Old Version Download </h5>
 
-# composer create-project laravel/laravel your-project-name 5.0
+### composer create-project laravel/laravel your-project-name 5.0
 
 <hr>
     return view('profile',array('user'=>Auth::user()))->with('years',Group::all())->with('occupations',Occupation::all());
 
+<hr>
 
+<p> Eloquent Collection: Counting and Detect Empty </p>
+
+```
+When using ->get() you cannot simply use any of the below:
+
+if (empty($result)) { }
+if (!$result) { }
+if ($result) { }
+
+
+if ($result->first()) { } 
+if (!$result->isEmpty()) { }
+if ($result->count()) { }
+if (count($result)) { }
+
+```
 
 
 laravel foreach loop in controller
