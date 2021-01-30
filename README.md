@@ -26,6 +26,24 @@ if (count($result)) { }
 
 ```
 
+<hr>
+
+<hr>
+
+<p> eloquent fetch records within recent 3 hours </p>
+
+```
+
+$date = new \DateTime();
+$date->modify('-3 hours');
+$formatted_date = $date->format('Y-m-d H:i:s');
+$lb = \DB::table('myTable')->where('created_at', '>',$formatted_date);
+
+
+```
+
+
+<hr>
 
 laravel foreach loop in controller
 
