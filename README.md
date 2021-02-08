@@ -30,6 +30,17 @@ if (count($result)) { }
 
 <hr>
 
+
+```
+
+protected $guarded = [‘*’];
+
+```
+
+
+
+<hr>
+
 <p> data base seeding </p>
 
 ```
