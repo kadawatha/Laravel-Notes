@@ -9,6 +9,23 @@
 
 <hr>
 
+<p> Creating Tests  </p>
+
+
+```
+
+php artisan make:test UserTest
+
+php artisan make:test UserTest --unit
+
+php artisan make:factory ProjectFactory --model="App\Project"
+
+```
+
+
+
+
+
 <p> Eloquent Collection: Counting and Detect Empty </p>
 
 ```
