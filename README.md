@@ -33,7 +33,7 @@ if (count($result)) { }
 
 ```
 
-protected $guarded = [‘*’];
+protected $guarded = [];
 
 ```
 
